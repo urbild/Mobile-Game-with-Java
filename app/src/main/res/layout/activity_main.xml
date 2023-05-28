@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#e7dfc2"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvBaslik"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:fontFamily="sans-serif"
+        android:text="KORU BENİ"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivHalil"
+        android:layout_width="159dp"
+        android:layout_height="169dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        app:srcCompat="@drawable/halil" />
+
+    <Button
+        android:id="@+id/btnBasla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#bb8044"
+        android:fontFamily="sans-serif"
+        android:onClick="startGame"
+        android:text="Başla"
+        android:textColor="@android:color/white"
+        android:textSize="32sp" />
+
+</LinearLayout>
